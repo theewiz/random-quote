@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap');
+
+:root {
+  --bg-color: rgb(255, 250, 240);
+  --color: rgba(0, 0, 0, 0.9);
+  --border-color: rgba(24, 24, 24, .9);
+
+  --wrapper-padding: 4rem;
+}
+
+html {
+  font-family: 'Figtree', sans-serif;
+  height: 100vh;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  appearance: none;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+}
+
+body {
+  background: beige;
+  padding: 12rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  place-content: center;
+}
+
+.container {
+  /* background-color: var(--bg-color); */
+  border: .125rem solid var(--border-color);
+  border-radius: .8rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 80%;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.container button {
+  margin-top: 2rem;
+  padding: .8rem 1rem;
+  background-color: var(--color);
+  color: var(--bg-color);
+  border-radius: .4rem;
+  cursor: pointer;
+  letter-spacing: .05rem;
+}
+
+footer .name {
+  font-weight: 700;
+}
